@@ -1,11 +1,11 @@
 
 
-const io = require("socket.io")(8800, 
+const io = require("socket.io")(8800,
   {
-  cors: {
-    origin:  "https://master.dbnqkrd65exwv.amplifyapp.com/"
-  }
-});
+    cors: {
+      origin: "www.neos.tk"
+    }
+  });
 
 let activeUsers = [];
 
