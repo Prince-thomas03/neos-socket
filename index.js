@@ -11,6 +11,7 @@ const io = require("socket.io")(8800, {
     res.end();
   }
 });
+io.set('origins', 'https://neos.tk');
 
 let activeUsers = [];
 
