@@ -3,7 +3,7 @@
 const io = require("socket.io")(8800, 
   {
   cors: {
-    origin:  "*"
+    origin:  "https://master.dbnqkrd65exwv.amplifyapp.com/"
   }
 });
 
